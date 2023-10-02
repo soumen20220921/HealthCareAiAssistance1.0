@@ -42,14 +42,8 @@ const Wtwy = () => {
   return (
 
     <>
-      <header style={{
-        width: "100%",
-        textAlign: "center",
-        color: "#3F5BB5",
-        fontsize: "3rem"
-      }}>
-        {/* <h1 >Vision</h1> */}
-      </header>
+
+
       <div style={outerdiv}>
         <div  >
           <img style={img} src=".\images\wtwy.webp" alt="" />
