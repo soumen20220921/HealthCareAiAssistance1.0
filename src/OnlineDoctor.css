@@ -1,0 +1,87 @@
+.body {
+    height: 65rem;
+    width: 100%;
+    background-color: rgb(255, 221, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15em;
+    
+}
+
+h1 {
+    color: #3F5BB5;
+}
+
+header {
+    padding: 0 0 0 0;
+}
+
+.Doctor {
+    height: 45rem;
+    width: 40rem;
+    background-color:white;
+    position: relative;
+
+}
+
+.Doctor img {
+    top: 5%;
+    left: 25%;
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border: 1ps solid blue;
+    border-radius: 50%;
+    background-color: red;
+}
+.book{
+    position: absolute;
+    bottom: 0%;
+    height: 8rem;
+    width: inherit;
+    background-color: #3F5BB5;
+    text-align: center;
+    
+}
+.details{
+    height: 10rem;
+    width: inherit;
+    position: absolute;
+    bottom:10rem;
+    /* background-color: blue; */
+    text-align: center;
+}
+.details h1{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 0 0 0 ;
+    color: black;
+}
+.details h3{
+    margin: 0;
+    
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 0 0 0 ;
+    color: black;
+    background-color: none;
+
+}
+.details h4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    
+}
+.book h4{
+    padding-top: 1.9rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 350;
+    color: white;
+    
+    
+}

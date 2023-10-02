@@ -1,0 +1,27 @@
+.navbar-list {
+    height: 25px;
+    display: flex;
+    gap: 5rem;
+}
+li {
+    list-style: none;
+        font-weight:700;
+
+        .navbar-link {
+          &:link,
+          &:visited {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+          
+            color: black;
+            transition: color 0.3s linear;
+          }
+
+          &:hover,
+          &:active {
+            color:blueviolet;
+          }
+        }
+      }
+    

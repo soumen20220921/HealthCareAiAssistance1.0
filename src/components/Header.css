@@ -1,0 +1,15 @@
+.main-header{
+    padding: 0 4.8rem;
+    height: 90px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      padding-top:2rem;
+      height: auto;
+      max-width: 15rem;
+    }
+}
+
