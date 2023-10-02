@@ -34,11 +34,7 @@ const Wtwy = () => {
     padding: "0 0 30px 0",
 
   }
-  const header = {
-    color: "#3F5BB5",
-    textalign: "center",
-    fontsize: "3rem",
-  }
+
   return (
 
     <>
