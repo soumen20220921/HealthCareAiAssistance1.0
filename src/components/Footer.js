@@ -6,9 +6,9 @@ const Footer = () => {
     <div className='footer'>
       <div className='left'>
         <div className='about'>
-        <h3>HealthCareAi</h3>
+        <h3>HealthCareAIAssistance</h3>
             <div className='p1'>
-                @{new Date().getFullYear()} HealthCareAi.<br/> All Rights Reserved
+                @{new Date().getFullYear()} HealthCareAI.<br/> All Rights Reserved
             </div>
         </div>
         <div className='suscribe'>
@@ -56,10 +56,13 @@ const Footer = () => {
          {/* second child */}
          <div className="footer-contact">
             <h3>Contact Us</h3>
-            <div className='p1'>Foundation For Innovators In Science And Technology(FIIST), <br/>
-Office- 7, 5th Floor, Block 9<br/>
+            <div className='p1'>Foundation For Innovators In Science And Technology (FIIST)<br/>
+Block 9, 5th Floor, R-503/7<br/>
 Indian Institute of Technology, Patna<br/>
-Bihta, Bihar 801106 India</div>
+Bihta, Bihar 801106 India<br/>
+Email:healthcareaiassistance@gmail.com<br/>
+Mob: +91 9123979259
+</div>
           </div>
           {/* #rd child */}
           <div className="footer-sponsor">

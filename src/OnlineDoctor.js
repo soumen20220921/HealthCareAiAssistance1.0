@@ -3,7 +3,7 @@ import "./OnlineDoctor.css";
 // Not Completed
 const data = [
   {
-    name: "Dr Minakshi",
+    name: "Dr. Minakshi, MBBS, MD",
     department: "Medicine",
     hospital: "Sat 4pm to 6pm"
   },

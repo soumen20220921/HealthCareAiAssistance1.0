@@ -9,7 +9,7 @@ const AIAssistantSection = () => {
           <HeaderQuestion>Can an AI Assistant Help Clinicians in Diagnosis?</HeaderQuestion>
         </Header>
         <SectionHeader>Unlocking Efficiency in Healthcare</SectionHeader>
-        <SectionDescription>
+        // <SectionDescription>
           Our AI-powered healthcare assistant is revolutionizing the way
           clinicians work. Here's how it can benefit you:
         </SectionDescription>
@@ -89,12 +89,6 @@ const AIAssistantSection = () => {
             alt="Time Savings Chart"
           />
         </BarChartContainer>
-
-        
-
-
-        
-
 
         <SectionFooter>
           Explore how our AI assistant can transform healthcare and improve
