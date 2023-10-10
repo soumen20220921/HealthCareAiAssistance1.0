@@ -5,29 +5,37 @@ const data = [
   {
     name: "Dr. Minakshi, MBBS, MD",
     department: "Medicine",
-    hospital: "Sat 4pm to 6pm"
+    hospital: "Sat 4pm to 6pm",
+    img:"./images/Minakshi-Dhar.jpg"
   },
+
   {
-    name: "Dr Mrinmoy",
-    department: "General",
-    hospital: "Sat 4pm to 6pm"
+    name: "Dr Pankaj",
+    department: "Physiatrists",
+    hospital: "Sat 4pm to 6pm",
+    img:"./images/Dr Pankaj.jpeg"
   },
+
   {
     name: "Dr Swarnim",
     department: "Paediatric",
-    hospital: "Sat 4pm to 6pm"
+    hospital: "Sat 4pm to 6pm",
+    img:"./images/Sawarnin.jpeg"
   }
 ]
 const data2 = [
   {
-    name: "Dr Pankaj",
-    department: "Physiatrists",
-    hospital: "Sat 4pm to 6pm"
+    name: "Dr Mrinmoy",
+    department: "General",
+    hospital: "Sat 4pm to 6pm",
+    img:"./images/mrinmoy.jpeg"
   },
+
   {
     name: "Dr Pandey",
     department: "General",
-    hospital: "Sat 4pm to 6pm"
+    hospital: "Sat 4pm to 6pm",
+    img: "./images/DrPandey.jpg"
   },
 
 ]
@@ -44,7 +52,7 @@ const OnlineDoctor = () => {
         {data.map((elm) => (
 
           <div className='Doctor'>
-            <img src="" alt="" />
+            <img src={elm.img} alt="" />
             <div className='details'>
               <h1>{elm.name}</h1>
               <h4>{elm.department}</h4>
@@ -62,7 +70,7 @@ const OnlineDoctor = () => {
         {data2.map((elm) => (
 
           <div className='Doctor'>
-            <img src="" alt="" />
+            <img src={elm.img} alt="" />
             <div className='details'>
               <h1>{elm.name}</h1>
               <h4>{elm.department}</h4>
