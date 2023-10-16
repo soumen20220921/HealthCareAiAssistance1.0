@@ -9,7 +9,7 @@ const AIAssistantSection = () => {
           <HeaderQuestion>Can an AI Assistant Help Clinicians in Diagnosis?</HeaderQuestion>
         </Header>
         <SectionHeader>Unlocking Efficiency in Healthcare</SectionHeader>
-        // <SectionDescription>
+        <SectionDescription>
           Our AI-powered healthcare assistant is revolutionizing the way
           clinicians work. Here's how it can benefit you:
         </SectionDescription>
@@ -44,7 +44,7 @@ const AIAssistantSection = () => {
         </BarChartContainer>
         <SubsectionHeader>We have asked certain question to doctors having varying experiences</SubsectionHeader>
         <TimeSavingsDescription>
-        Their experiences
+          Their experiences
         </TimeSavingsDescription>
 
         <BarChartContainer>
@@ -55,7 +55,7 @@ const AIAssistantSection = () => {
           />
         </BarChartContainer>
         <TimeSavingsDescription>
-        First question
+          First question
         </TimeSavingsDescription>
 
         <BarChartContainer>
@@ -65,9 +65,9 @@ const AIAssistantSection = () => {
             alt="Time Savings Chart"
           />
         </BarChartContainer>
-        
+
         <TimeSavingsDescription>
-        Second question
+          Second question
         </TimeSavingsDescription>
 
         <BarChartContainer>
@@ -77,9 +77,9 @@ const AIAssistantSection = () => {
             alt="Time Savings Chart"
           />
         </BarChartContainer>
-        
+
         <TimeSavingsDescription>
-        Third question
+          Third question
         </TimeSavingsDescription>
 
         <BarChartContainer>

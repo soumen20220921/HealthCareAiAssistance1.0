@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 15em;
-    
+
 }
 
 h1 {
@@ -20,7 +20,7 @@ header {
 .Doctor {
     height: 45rem;
     width: 40rem;
-    background-color:white;
+    background-color: white;
     position: relative;
 
 }
@@ -35,53 +35,65 @@ header {
     border-radius: 50%;
     background-color: red;
 }
-.book{
+
+.book {
     position: absolute;
     bottom: 0%;
     height: 8rem;
     width: inherit;
     background-color: #3F5BB5;
     text-align: center;
-    
+
 }
-.details{
+
+.details {
     height: 10rem;
     width: inherit;
     position: absolute;
-    bottom:10rem;
+    bottom: 10rem;
     /* background-color: blue; */
     text-align: center;
 }
-.details h1{
+
+.details h1 {
     font-size: 2rem;
     font-weight: 400;
-    padding: 0 0 0 0 ;
+    padding: 0 0 0 0;
     color: black;
 }
-.details h3{
+
+.details h3 {
     margin: 0;
-    
+
     font-size: 2rem;
     font-weight: 400;
-    padding: 0 0 0 0 ;
+    padding: 0 0 0 0;
     color: black;
     background-color: none;
 
 }
-.details h4{
+
+.details h4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: 400;
     color: black;
-    
+
 }
-.book h4{
+
+.book h4 {
     padding-top: 1.9rem;
     padding-bottom: 1rem;
     font-size: 3rem;
     font-weight: 350;
     color: white;
-    
-    
+
+
+}
+
+.drbook {
+    position: absolute;
+    bottom: 2rem;
+    left: 25%;
 }

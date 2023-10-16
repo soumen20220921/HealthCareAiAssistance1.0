@@ -65,10 +65,10 @@ const Services = () => {
           <img src=".\images\mentorship.jpg" alt="" />
           <div className="button">
             <Button className="btn hireme-btn">
-              <NavLink to="/contact"> Explore </NavLink>
+              <NavLink to="/Mentorhip"> Explore </NavLink>
             </Button>
             <Button className="btn hireme-btn">
-              <NavLink to="/contact"> REGISTER </NavLink>
+              <NavLink to="/Mentorhip"> REGISTER </NavLink>
             </Button>
 
           </div>

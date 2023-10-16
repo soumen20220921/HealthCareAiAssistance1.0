@@ -10,6 +10,7 @@ import Post from "./Post";
 import Getstarted from "./getStarted";
 import DataSet from "./DataSet";
 import OnlineDoctor from "./OnlineDoctor";
+import Mentorhip from './Mentorhip';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/getstarted" element={<Getstarted />} />
           <Route path="/dataset" element={<DataSet />} />
           <Route path="/onlinedoctor" element={<OnlineDoctor />} />
+          <Route path="/Mentorhip" element={<Mentorhip />} />
         </Routes>
         <Footer />
       </BrowserRouter>
